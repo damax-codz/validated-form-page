@@ -1,0 +1,70 @@
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img{
+    color: black;
+    width: 50px;
+    height: 70px;
+}
+.damax{
+    display: flex;
+}
+.damtext{
+    margin-top: 25px;
+    display: flex;
+    font-size: 20px;
+    
+}
+.login{
+    margin-top: 25px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.button{
+    text-align: center;
+    margin-top: 5px;
+}
+.signup>h3{
+    text-align: center;
+    font-size: 25px;
+}
+input[type='text'], input[type='password'], input[type='email']{
+    width: 250px;
+    margin:10px 0px 10px 0px;
+}
+.warn{
+   visibility: hidden;
+   margin-top: 5px;
+}
+input#checkone,#checktwo {
+   visibility: hidden;
+}
+label#labelone,#labeltwo{
+   visibility: hidden;
+}
+.fake-input { position: relative; width: 250px; }
+.fake-input input { display:flex; width: 250px;}
+.fake-input img { position: absolute; top: 2px;right:1px;width: 15px; height: 15px;cursor: pointer; z-index: 2;}
+#passconfirm{
+    color: red;
+    font-size: 15px;
+    padding: 5px 0px 5px 0px ;
+}
+input{
+    border-radius: 5px;
+    border: 1px solid rgba(31, 30, 30, 0.65);
+}
+.xoxo{
+    transform: rotate(15deg);
+    width: 20px;
+    margin: -20px 10px 0px 0px ;
+    font-size: 50px;
+    color: rgb(80, 176, 231);
+    font-family: 'Satisfy', cursive;
+}
